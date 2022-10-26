@@ -22,11 +22,11 @@ const EditFormateur = () => {
     };
 
     fetchData();
-  },[]);
+  },[id]);
 
 
-const [dataFiliere, setFiliereData] = useState([]);
-const [filiereState, setFiliereState] = useState(data.filiere);
+//const [dataFiliere, setFiliereData] = useState([]);
+//const [filiereState, setFiliereState] = useState(data.filiere);
 
 function handleChangeFormateur(e) {
         const newData = {...data}
