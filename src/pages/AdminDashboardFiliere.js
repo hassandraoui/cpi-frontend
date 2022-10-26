@@ -4,11 +4,11 @@ import AddModulesToFiliere from '../components/Filiere/AddModulesToFiliere'
 import CreateFiliere from '../components/Filiere/CreateFiliere'
 import EditFiliere from '../components/Filiere/EditFiliere'
 import ListeFilieres from '../components/Filiere/ListeFilieres'
-import ListeGroupes from '../components/Groupe/ListeGroupes'
+//import ListeGroupes from '../components/Groupe/ListeGroupes'
 import AdminHeader from '../components/Headers/AdminHeader'
 import AdminHeaderFilieres from '../components/Headers/AdminHeaderFilieres'
-import AdminHeaderModules from '../components/Headers/AdminHeaderModules'
-import ListeModules from '../components/Module/ListeModules'
+//import AdminHeaderModules from '../components/Headers/AdminHeaderModules'
+//import ListeModules from '../components/Module/ListeModules'
 
 
 function AdminDashboardFiliere() {
