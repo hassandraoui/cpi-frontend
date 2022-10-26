@@ -22,7 +22,7 @@ const EditFiliere = () => {
     };
 
     fetchData();
-  },[]);
+  },[id]);
   
 
 function handleChangeFiliere(e) {
