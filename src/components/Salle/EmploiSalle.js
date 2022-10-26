@@ -25,7 +25,7 @@ useEffect( ()=>{
       };
   
       fetchData();
-    },[]);
+    },[id]);
 
 const [dataGroupe, setGroupeData] = useState([]);
 
