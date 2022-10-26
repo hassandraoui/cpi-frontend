@@ -57,8 +57,6 @@ const AddModulesToGroupe = () => {
         .then( (resultat)=> {
             setDataGroupe(resultat.data);
             console.log("récupération des informations du groupe!!!");
-            console.log("dataGroupe")
-            console.log(dataGroupe)
         })
         .catch((e)=>console.log("récupération des informations du groupe échouée!!! : "+e));
     };
