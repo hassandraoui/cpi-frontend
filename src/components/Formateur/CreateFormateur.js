@@ -1,7 +1,7 @@
 //import { Link } from "react-router-dom";
 
 import axios from "axios";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const CreateFormateur = (req,res) => {
@@ -22,7 +22,7 @@ const [data, setData] = useState(
     );
 
 
-const [filiereState, setFiliereState] = useState("");
+//const [filiereState, setFiliereState] = useState("");
 
 function handleChangeGroupe(e) {
         const newData = {...data}
