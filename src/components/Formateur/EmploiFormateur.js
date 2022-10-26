@@ -45,7 +45,7 @@ useEffect( ()=>{
     fetchData1();
     fetchData2();
     fetchData3();
-    },[]);
+    },[id]);
 
 
 function findGrp(gId){
