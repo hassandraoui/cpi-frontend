@@ -29,7 +29,7 @@ const AddModulesToGroupe = () => {
     console.log(moduleId)
         axios(`${process.env.REACT_APP_SERVER_URL}/modules/${moduleId}`)
         .then( (moduleFull1)=>{
-            setModuleFull(moduleFull1.data);
+            //setModuleFull(moduleFull1.data);
             console.log("moduleFull1.data")
             console.log(moduleFull1.data)
             console.log("Ajout du module au groupe réussi!!!")
@@ -71,7 +71,7 @@ const AddModulesToGroupe = () => {
     console.log(moduleId)
         axios(`${process.env.REACT_APP_SERVER_URL}/modules/${moduleId}`)
         .then( (moduleFull1)=>{
-            setModuleFull(moduleFull1.data);
+            //setModuleFull(moduleFull1.data);
             console.log("moduleFull1")
             console.log(moduleFull1.data)
 
