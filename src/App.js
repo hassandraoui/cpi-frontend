@@ -53,9 +53,6 @@ function App() {
 			<Route path="/admin/module/*" element={<AdminDashboardModule />} />
 			<Route path="/admin/grh/*" element={<AdminDashboardFormateur />} />
 
-			<Route path="/directeur1" exact element={<Directeur1 />} />
-			<Route path="/directeur2" exact element={<Directeur2 />} />
-
 			<Route path="/CreateFiliere" exact element={<CreateFiliere />} />
 			<Route path="/ListeFilieres" exact element={<ListeFilieres />} />
 			<Route path="/EditFiliere/:id" exact element={<EditFiliere />} />
