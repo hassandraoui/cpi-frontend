@@ -46,7 +46,6 @@ function handleSubmitFormateur(e) {
             `${process.env.REACT_APP_SERVER_URL}/users/${id}`,
             data
         ).then(()=> {
-            console.log("filiereState: "+ filiereState)
           console.log("modification réussie!!!")
           window.location.replace("/ListeFormateurs");
         })
