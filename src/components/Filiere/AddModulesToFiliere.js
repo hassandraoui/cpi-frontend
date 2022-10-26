@@ -21,7 +21,7 @@ const AddModulesToFiliere = () => {
     };
 
     fetchData();
-  },[]);
+  },[id]);
 
   const [dataFiliere, setDataFiliere] = useState( {} );
   useEffect( ()=>{
@@ -37,7 +37,7 @@ const AddModulesToFiliere = () => {
     };
 
     fetchData();
-  },[]);
+  },[id]);
   
   const addModuleToFiliere = ( moduleId) => {
     axios.patch(`${process.env.REACT_APP_SERVER_URL}/filieres/addModuleToFiliere/`,
