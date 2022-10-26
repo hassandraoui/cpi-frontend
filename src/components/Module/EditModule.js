@@ -23,7 +23,7 @@ const EditModule = () => {
     };
 
     fetchData();
-  },[]);
+  },[id]);
   
 /*const [data, setData] = useState(
         //initialData
