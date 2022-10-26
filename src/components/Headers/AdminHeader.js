@@ -7,7 +7,7 @@ function AdminHeader() {
         <div>
                     <nav id="main_nav" className="navbar navbar-expand-lg navbar-light bg-white shadow">
             <div className="container d-flex justify-content-between align-items-center">
-                <a className="navbar-brand h1" href="#">
+                <a className="navbar-brand h1" href="/">
                     <i className='bx bx-pen bx-sm text-dark'></i>
                     <span className="text-dark h4">ISGI</span> <span className="text-primary h4">Laayoune</span>
                 </a>
