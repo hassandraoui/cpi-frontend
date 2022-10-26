@@ -1,6 +1,7 @@
 import styles from "./styles.module.css";
 
 const Main = () => {
+	/*
 	const handleLogout = () => {
 		try {
 			localStorage.removeItem("accessToken");
@@ -11,6 +12,7 @@ const Main = () => {
 		}
 
 	};
+	*/
 
 	return (
 		<div className={styles.main_container}>
