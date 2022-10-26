@@ -20,7 +20,7 @@ const EditSalle = () => {
     };
 
     fetchData();
-  },[]);
+  },[id]);
   
 
 function handleChangeModule(e) {
