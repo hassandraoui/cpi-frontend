@@ -41,7 +41,7 @@ const ListeModulesOfFormateur = () => {
     };
 
     fetchData();
-  },[]);
+  },[id]);
   
   const declarerAffectationDuModule = (groupeId, groupeModuleId)=> {
     axios.patch(`${process.env.REACT_APP_SERVER_URL}/groupes/declareAffectationModuleOfGroupe/`,
