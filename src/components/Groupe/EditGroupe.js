@@ -22,7 +22,7 @@ const EditGroupe = () => {
     };
 
     fetchData();
-  },[]);
+  },[id]);
 
     useEffect( ()=>{
       const fetchData = async () => {
