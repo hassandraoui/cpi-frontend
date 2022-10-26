@@ -23,7 +23,7 @@ const AddModulesToGroupe = () => {
 
     fetchData();
   },[]);
-  const [moduleFull, setModuleFull] = useState(null)
+  //const [moduleFull, setModuleFull] = useState(null)
   const addModuleToGroupe = ( moduleId) => {
     console.log("moduleId")
     console.log(moduleId)
@@ -64,7 +64,7 @@ const AddModulesToGroupe = () => {
     };
 
     fetchData();
-  },[]);
+  },[id]);
 
   const removeModuleFromGroupe = ( moduleId) => {
     console.log("moduleId")
