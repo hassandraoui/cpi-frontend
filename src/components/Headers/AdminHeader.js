@@ -5,7 +5,7 @@ function AdminHeader() {
     return (
         <>
         <div>
-                    <nav id="main_nav" className="navbar navbar-expand-lg navbar-light bg-white shadow">
+                    <nav id="main_nav" className="navbar navbar-expand-lg navbar-dark bg-white shadow">
             <div className="container d-flex justify-content-between align-items-center">
                 <a className="navbar-brand h1" href="/">
                     <i className='bx bx-pen bx-sm text-dark'></i>
